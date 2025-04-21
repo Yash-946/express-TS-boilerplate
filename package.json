@@ -1,0 +1,22 @@
+{
+  "name": "@yash946/express-ts-boilerplate",
+  "version": "1.0.7",
+  "description": "CLI to generate an Express template",
+  "bin": {
+    "express-ts-boilerplate": "./bin/cli2.js"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "cli",
+    "generator"
+  ],
+  "author": "Yash Agrawal",
+  "license": "MIT",
+  "files": [
+    "bin/cli2.js"
+  ],
+  "dependencies": {
+    "inquirer": "^8.2.6"
+  }
+}
