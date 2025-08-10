@@ -1,21 +1,41 @@
 {
-  "name": "@yash946/express-ts-boilerplate",
-  "version": "1.0.7",
-  "description": "CLI to generate an Express template",
+  "name": "@yash946/express-ts",
+  "version": "2.0.2",
+  "description": "Zero-config CLI to bootstrap Express.js projects with TypeScript - supports npm, yarn, pnpm, and bun",
   "bin": {
-    "express-ts-boilerplate": "./bin/cli2.js"
+    "express-ts": "./bin/cli3.js"
   },
   "keywords": [
     "express",
     "typescript",
     "cli",
-    "generator"
+    "generator",
+    "boilerplate",
+    "scaffold",
+    "npm",
+    "yarn",
+    "pnpm", 
+    "bun",
+    "git",
+    "hot-reload",
+    "nodejs"
   ],
   "author": "Yash Agrawal",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yash-946/express-TS-boilerplate"
+  },
+  "homepage": "https://github.com/Yash-946/express-TS-boilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/Yash-946/express-TS-boilerplate/issues"
+  },
   "files": [
-    "bin/cli2.js"
+    "bin/cli3.js"
   ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "dependencies": {
     "inquirer": "^8.2.6"
   }
